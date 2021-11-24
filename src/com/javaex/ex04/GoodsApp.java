@@ -11,12 +11,19 @@ public class GoodsApp {
 	public static void main(String[] args) {
 		
 		Goods camera = new Goods("니콘", 400000);
-		System.out.println(camera.toString());
+		camera.showinfo();
+//		System.out.println(camera.toString());
+		
+		Goods computer = new Goods("LG그램", 900000);
+		computer.showinfo();
 		
 		Goods cup = new Goods();
 		cup.setName("머그컵");
 		cup.setPrice(2000);
-		System.out.println(cup.toString());
+		cup.showinfo();
+//		System.out.println(cup.toString());
+		
+		
 	}
 
 }

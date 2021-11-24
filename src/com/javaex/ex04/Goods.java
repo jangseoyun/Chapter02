@@ -8,13 +8,13 @@ public class Goods {
 
 	// 생성자
 	public Goods() {
-		System.out.println("Goods()");
+		System.out.println("생성자Goods()");
 	}
 	
 	public Goods(String name, int price) {
 		this.name = name;
 		this.price = price;
-		System.out.println("Goods(String name, int price)");
+		System.out.println("생성자Goods(String name, int price)");
 	}
 
 	// 메소드 g/s
@@ -36,7 +36,9 @@ public class Goods {
 
 	// 메소드 일반
 	public void showinfo() {
-		
+		System.out.println("상품이름: "+name);
+		System.out.println("가격: "+price);
+		System.out.println("----------------------");
 	}
 
 	@Override
