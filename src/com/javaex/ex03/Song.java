@@ -1,9 +1,5 @@
 package com.javaex.ex03;
 
-/**
- * @author hjj92
- *
- */
 public class Song {
 
 	// 필드
